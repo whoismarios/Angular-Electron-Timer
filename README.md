@@ -1,28 +1,36 @@
-# AngularElectronTimer
+# Angular Electron Timer
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+The Angular Electron Timer is a tool that allows users to set a timer and track its progress visually using an Angular application. It provides a user-friendly interface to input the desired timer duration in minutes and displays a progress bar and countdown timer as the timer runs.
 
-## Development server
+## Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+To get started with the Angular Electron Timer, follow these steps:
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+cd angular-electron-timer
+```
 
-## Build
+Install the required dependencies: Run the following command to install the necessary packages and dependencies:
+```bash
+npm install
+```
+Start the application: Run the following command to start the Angular development server and launch the application in your browser:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```bash
+ng serve
+```
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The Angular Electron Timer will be accessible at http://localhost:4200 in your browser.
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Furthermore you can start the Timer as Electron Application.
+Simply run the following command:
+```bash
+npm start electron
+``` 
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# Angular-Electron-Timer
+### Interact with the application:
+Enter the desired duration in minutes in the input field, and click the "Start" button to start the timer. The progress bar will display the timer progress, and the countdown will show the remaining time. Click the "Stop" button to stop the timer before it finishes.
+With these steps, you should have the Angular Electron Timer up and running on your system. Feel free to customize the styling, add additional functionality, or integrate it into an Electron application as per your requirements.
